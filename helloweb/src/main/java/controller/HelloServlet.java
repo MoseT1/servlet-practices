@@ -14,9 +14,9 @@ public class HelloServlet extends HttpServlet {
 
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+		response.setContentType("text/html; charset=utf-8");  //contenttype을 먼저해줘야함.(순서가 중요)
 		PrintWriter pw = response.getWriter();
-		pw.println("<h1>Hello World</h1>");
+		pw.println("<h1>안녕하셍</h1>");
 		
 	
 	}
