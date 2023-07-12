@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.bitacademy</groupId>
-	<artifactId>sevlet-practices</artifactId>
+	<artifactId>servlet-practices</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<properties>
@@ -12,4 +12,12 @@
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
+	
+	<modules>
+		<module>helloweb</module>
+		<module>emaillist01</module>
+		<module>emaillist02</module>
+		<module>guestbook01</module>
+		<module>guestbook02</module>
+	</modules>
 </project>
